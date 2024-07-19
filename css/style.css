@@ -43,7 +43,7 @@ p {
 .nav-bar {
     justify-content: space-between;
     align-items: center;
-    margin: 50px 100px;
+    margin: 50px 0px;
 }
 
 .logo-title {
@@ -83,7 +83,7 @@ p {
 
 /* banner style */
 .banner {
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .banner-content {
     height: 450px;
@@ -122,7 +122,7 @@ p {
 
 .banner-image {
     height: 580px;
-    width: 350px;
+    width: 450px;
 }
 
 .banner-image img {
@@ -164,7 +164,7 @@ p {
     padding: 10px 15px;
     position: relative;
     top: -500px;
-    right: -250px;
+    right: -300px;
 }
 
 .workout-card h3 {
@@ -174,10 +174,23 @@ p {
 }
 
 /* header section style ends */
-
-
-
-
+/* Change Your Habits Section css starts */
+.change-habits{
+    height: 150px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 5rem;
+}
+.change-habits h3{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.row{
+    width: 25%;
+    text-align: center;
+}
+/* Change Your Habits Section css ends */
 
 @media screen and (max-width: 576px) {
     .nav-bar{
