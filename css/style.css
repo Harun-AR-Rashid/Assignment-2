@@ -22,8 +22,8 @@ body {
 }
 
 .btn-primary {
-    height: 60px;
-    width: 200px;
+    height: 55px;
+    width: 225px;
     border: none;
     background-color: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
@@ -43,7 +43,7 @@ p {
 .nav-bar {
     justify-content: space-between;
     align-items: center;
-    margin: 50px 0px;
+    margin: 50px 100px;
 }
 
 .logo-title {
@@ -51,6 +51,9 @@ p {
     font-weight: 800;
     color: rgb(230, 83, 60);
 }
+/* .nav-item {
+    margin-right: 100px;
+} */
 
 .bar {
     font-size: 2rem;
@@ -83,7 +86,7 @@ p {
 
 /* banner style */
 .banner {
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .banner-content {
     height: 450px;
@@ -150,6 +153,7 @@ p {
     font-size: 1.5rem;
     font-weight: 900;
 }
+
 .video-card .fa-brands {
     font-size: 2.5rem;
     color: rgb(230, 83, 60);
@@ -164,7 +168,7 @@ p {
     padding: 10px 15px;
     position: relative;
     top: -500px;
-    right: -300px;
+    right: -250px;
 }
 
 .workout-card h3 {
@@ -175,57 +179,113 @@ p {
 
 /* header section style ends */
 /* Change Your Habits Section css starts */
-.change-habits{
-    height: 150px;
-    width: 50%;
-    margin: 0 auto;
+.change-habits {
+    height: 100%;
+    width: 70%;
+    margin: 80px auto;
     text-align: center;
     line-height: 5rem;
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
-.change-habits h3{
+
+.change-habits h3 {
     font-size: 3rem;
     font-weight: 900;
 }
-.row{
-    width: 25%;
+
+.habit-items {
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.row {
     text-align: center;
 }
+
+.habit-paragraph {
+    padding: 0px 30px;
+}
+
+.primary-image {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
 /* Change Your Habits Section css ends */
 
 @media screen and (max-width: 576px) {
-    .nav-bar{
+    .nav-bar {
         margin: 50px 20px;
     }
+
     .nav-item {
         display: none;
     }
+
     .bar {
         display: block;
     }
+
     .banner {
         flex-direction: column;
     }
+    .banner-head{
+        margin: 0px 0px 50px 0px;
+    }
     .banner-content {
-        height: 425px;
-        width: 400px;
+        height: 350px;
+        width: 280px;
         text-align: left;
         margin-top: 40px;
     }
+
     .banner-content h3 {
-        font-size: 4rem;
+        font-size: 2.8rem;
         font-weight: 900;
     }
+    .banner-content h3 .thin-shape{
+        font-size: 3rem;
+    }
+    .btn {
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
     .video-card {
         position: relative;
         top: -300px;
         left: -20px;
     }
+
     .banner-image{
-        margin-top: 50px;
+        margin: 0 auto;
+        height: 580px;
+        width: 350px;
     }
     .workout-card {
         top: -600px;
         right: -200px;
     }
-    
+
+    /* change your habit section css responsive starts */
+    .habit-items {
+        flex-direction: column;
+    }
+    .change-habits {
+        width: 75%;
+    }
+    .change-habits h3 {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .row {
+        width: 75%;
+        margin-bottom: 40px;
+    }
+    /* change your habit section css responsive ends */
 }
