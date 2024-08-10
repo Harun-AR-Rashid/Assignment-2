@@ -40,7 +40,6 @@ body {
 h3 {
     font-size: 3rem;
     font-weight: 900;
-    line-height: 65px;
 }
 
 p {
@@ -117,8 +116,9 @@ p {
 
 .banner-content h3 .thin-shape {
     font-weight: 200;
-    font-size: 8rem;
+    font-size: 9.5rem;
     font-family: Miama;
+    line-height: 0px;
 }
 
 .banner-content p {
@@ -165,6 +165,7 @@ p {
 .video-card h3 {
     font-size: 1.5rem;
     font-weight: 900;
+
 }
 
 .video-card .fa-brands {
@@ -259,6 +260,7 @@ p {
 /* Training section css starts */
 .training-head{
     width: 50%;
+    margin: 50px 0px;
 }
 .training-banner-first{
     height: 220px;
@@ -278,8 +280,95 @@ p {
     height: 220px;
     width: 385px;
 }
+.training-banner-second{
+    height: 220px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 25% 35%;
+}
+.excercise-second-first{
+    height: 220px;
+    width: 550px;
+}
+.excercise-second-square{
+    height: 220px;
+    width: 350px;
+}
+.excercise-second-third{
+    height: 220px;
+    width: 449px;
+}
 
 /* Training section css ends */
+.bmi-title{
+    width: 50%;
+    margin: 80px auto;
+}
+.container-calculator{
+    max-width: 100%;
+    height: 500px;
+    background-color: rgb(34, 34, 34);
+}
+.container-calculator .container{
+    justify-content: space-between;
+}
+/* .calculated-part{
+    width: 50%;
+} */
+.calculated-part h2{
+    font-size: 1.85rem;
+    padding: 50px 0px;
+    font-weight: 900;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    padding: 10px 35px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+td{
+    padding: 10px 35px;
+    color: rgb(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.calculate-your-bmi{
+    width: 50%;
+}
+.title-bmi-head{
+    padding: 50px 0px 20px;
+}
+.title-bmi-head h2{
+    font-size: 1.85rem;
+    font-weight: 900;
+}
+.title-bmi-head p{
+    padding: 20px 0px 0px;
+}
+.input-field{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.weight-form{
+    height: 50px;
+    border: 1px solid rgb(34, 34, 34);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    font-size: 1.2rem;
+
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0 0 0 15px;
+    font-size: 1.2rem;
+}
+.option-container{
+    color: rgb(255, 255, 255, 0.1);
+    
+}
 
 
 
