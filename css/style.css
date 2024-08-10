@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 /* shared style */
-.hide {
-    display: none;
+@font-face {
+    font-family: Miama;
+    src: url(../miama/Miama.ttf);
 }
 
 body {
@@ -115,9 +116,9 @@ p {
 }
 
 .banner-content h3 .thin-shape {
-    font-weight: 100;
-    font-size: 7rem;
-    font-family: "MonteCarlo";
+    font-weight: 200;
+    font-size: 8rem;
+    font-family: Miama;
 }
 
 .banner-content p {
@@ -295,7 +296,7 @@ p {
     }
 
     .banner-content h3 .thin-shape {
-        font-size: 3rem;
+        font-size: 7rem;
     }
 
     .btn {
@@ -353,7 +354,7 @@ p {
         width: 90%;
     }
  .btn-primary {
-        width: 450px;
+        width: 460px;
     }   
     .extra-run-image img {
         width: 100%;
