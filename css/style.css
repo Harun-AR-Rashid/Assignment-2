@@ -255,10 +255,31 @@ p {
     object-fit: cover;
 
 }
-
-
 /* Extra-run section css ends */
+/* Training section css starts */
+.training-head{
+    width: 50%;
+}
+.training-banner-first{
+    height: 220px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+}
+.excercise-first{
+    height: 220px;
+    width: 350px;
+}
+.excercise-second{
+    height: 220px;
+    width: 600px;
+}
+.excercise-third{
+    height: 220px;
+    width: 385px;
+}
 
+/* Training section css ends */
 
 
 
