@@ -300,21 +300,22 @@ p {
 }
 
 /* Training section css ends */
+/* Challenge part css starts */
 .bmi-title{
     width: 50%;
     margin: 80px auto;
 }
 .container-calculator{
-    max-width: 100%;
+    width: 100%;
     height: 500px;
     background-color: rgb(34, 34, 34);
 }
 .container-calculator .container{
     justify-content: space-between;
 }
-/* .calculated-part{
+.calculated-part{
     width: 50%;
-} */
+}
 .calculated-part h2{
     font-size: 1.85rem;
     padding: 50px 0px;
@@ -324,12 +325,13 @@ table{
     border-collapse: collapse;
 }
 th{
-    padding: 10px 35px;
+    text-align: left;
+    padding: 15px 50px 15px 25px;
     color: rgb(255, 255, 255);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 td{
-    padding: 10px 35px;
+    padding: 15px 50px 15px 23px;
     color: rgb(255, 255, 255, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -346,11 +348,9 @@ td{
 .title-bmi-head p{
     padding: 20px 4px 0px;
 }
-/* .input-field{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
-} */
+.input-field{
+    width: 100%;
+}
 .weight-form {
     height: 50px;
     width: 45%;
@@ -376,53 +376,16 @@ select#select-bar {
 }
 .select-activity{
     height: 50px;
-    width: 100%;
+    width: 98%;
     border: 1px solid rgb(34, 34, 34);
     background-color: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.3);
     border-radius: 8px;
     font-size: 1.2rem;
     cursor: pointer;
-    margin-left: 3px;
-    margin-bottom: 35px;
+    margin: 10px 0px 35px 3px;
 }
-/* .weight-form{
-    padding: 15px 0px;
-    border: 1px solid rgb(34, 34, 34);
-    background-color: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.6);
-    border-radius: 8px;
-    font-size: 1.2rem;
-    cursor: pointer;
-} */
-/* ::placeholder{
-    color: rgba(255, 255, 255, 0.6);
-    padding: 0 0 0 15px;
-    font-size: 1.2rem;
-} */
-/* select{
-    background-color: rgba(255, 255, 255, 0.1);
-    font-size: 1.2rem;
-    border: 1px solid rgb(34, 34, 34);
-    color: rgba(255, 255, 255, 0.6);
-    border-radius: 8px;
-}
-select {
-    background-color: rgba(255, 255, 255, 0.1);
-    font-size: 1.2rem;
-    border: 1px solid rgb(34, 34, 34);
-    color: rgba(255, 255, 255, 0.6);
-    border-radius: 8px;
-    padding: 16px 245px 16px 13px;
-}
-.select-activity{
-    padding: 15px 30px;
-}
-.select-activity {
-    padding: 16px 400px 16px 16px;
-    margin: 10px 0px;
-} */
-
+/* Challenge part css ends */
 
 @media screen and (max-width: 576px) {
     .nav-bar {
@@ -447,7 +410,7 @@ select {
 
     .banner-content {
         height: 350px;
-        width: 280px;
+        width: 330px;
         text-align: left;
         margin-top: 40px;
     }
@@ -523,4 +486,33 @@ select {
     }
 
     /* Run extra section responsive ends */
+    /* Challenge parts responsive starts */
+    .container{
+        flex-direction: column;
+    }
+    .bmi-title{
+        width: 90%;
+    }
+    .calculated-part{
+    width: 100%;
+    }
+    .calculate-your-bmi{
+        width: 100%;
+    }
+    .container-calculator{
+        height: auto;
+    }
+    .weight-form {
+        width: 44%;
+    }
+    #button-cused{
+        width: 300px;
+    }
+    .title-bmi-head h2{
+        font-size: 1.5rem;
+    }
+    .calculated-part h2{
+        font-size: 1.5rem;
+    }
+    /* Challenge parts responsive ends */
 }
