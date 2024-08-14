@@ -597,14 +597,17 @@ select#select-bar {
         width: 100%;
     }
 
-
     .team-container{
         grid-template-columns: repeat(1, 1fr);
-        text-align: center;
     }
-    
-
-
-
+    .image-section {
+        height: 300px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .image-section img {
+        height: 300px;
+        width: 100%;
+    }
     /* Meat our team section Responsive ends here */
 }
