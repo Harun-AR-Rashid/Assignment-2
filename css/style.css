@@ -232,7 +232,7 @@ p {
 /* Change Your Habits Section css ends */
 /* Extra-run section css starts */
 .extra-run-head {
-    margin: 150px 0px;
+    margin: 100px 0px;
     width: 100%;
     height: 380px;
     background-color: rgb(34, 34, 34);
@@ -256,104 +256,131 @@ p {
     object-fit: cover;
 
 }
+
 /* Extra-run section css ends */
 /* Training section css starts */
-.training-head{
+.training-head {
     width: 50%;
     margin: 50px 0px;
 }
-.training-banner-first{
+
+.training-banner-first {
     height: 220px;
     width: 100%;
     display: grid;
     grid-template-columns: 25% 45% 30%;
 }
-.excercise-first{
+
+.excercise-first {
     height: 220px;
     width: 350px;
 }
-.excercise-second{
+
+.excercise-second {
     height: 220px;
     width: 600px;
 }
-.excercise-third{
+
+.excercise-third {
     height: 220px;
     width: 385px;
 }
-.training-banner-second{
+
+.training-banner-second {
     height: 220px;
     width: 100%;
     display: grid;
     grid-template-columns: 40% 25% 35%;
 }
-.excercise-second-first{
+
+.excercise-second-first {
     height: 220px;
     width: 550px;
 }
-.excercise-second-square{
+
+.excercise-second-square {
     height: 220px;
     width: 350px;
 }
-.excercise-second-third{
+
+.excercise-second-third {
     height: 220px;
     width: 449px;
 }
 
 /* Training section css ends */
 /* Challenge part css starts */
-.bmi-title{
+.bmi-title {
     width: 50%;
-    margin: 80px auto;
+    margin: 0px auto 80px;
 }
-.container-calculator{
+
+.container-calculator {
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: rgb(34, 34, 34);
 }
-.container-calculator .container{
+
+.container-calculator .container {
     justify-content: space-between;
 }
-.calculated-part{
+
+.calculated-part {
     width: 50%;
 }
-.calculated-part h2{
+
+.calculated-part h2 {
     font-size: 1.85rem;
     padding: 50px 0px;
     font-weight: 900;
 }
-table{
+
+table {
     border-collapse: collapse;
 }
-th{
+
+th {
     text-align: left;
-    padding: 15px 50px 15px 25px;
+    height: 45px;
+    width: 150px;
+    padding-left: 20px;
     color: rgb(255, 255, 255);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
-td{
-    padding: 15px 50px 15px 23px;
-    color: rgb(255, 255, 255, 0.5);
+
+td {
+    text-align: left;
+    height: 45px;
+    width: 150px;
+    padding-left: 20px;
+    color: rgb(255, 255, 255, 0.6);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.calculate-your-bmi{
+
+.calculate-your-bmi {
     width: 50%;
 }
-.title-bmi-head{
+
+.title-bmi-head {
     padding: 50px 0px 20px;
 }
-.title-bmi-head h2{
+
+.title-bmi-head h2 {
     font-size: 1.85rem;
     font-weight: 900;
 }
-.title-bmi-head p{
+
+.title-bmi-head p {
     padding: 20px 4px 0px;
 }
-.input-field{
+
+.input-field {
     width: 100%;
 }
+
 .weight-form {
     height: 50px;
-    width: 45%;
+    width: 44%;
     padding: 0px 9px 0px;
     border: 1px solid rgb(34, 34, 34);
     background-color: rgba(255, 255, 255, 0.1);
@@ -363,8 +390,9 @@ td{
     cursor: pointer;
     margin: 8px 4px;
 }
+
 select#select-bar {
-    height: 50px;
+    height: 52px;
     width: 48%;
     border: 1px solid rgb(34, 34, 34);
     background-color: rgba(255, 255, 255, 0.1);
@@ -374,7 +402,8 @@ select#select-bar {
     cursor: pointer;
     margin-left: 3px;
 }
-.select-activity{
+
+.select-activity {
     height: 50px;
     width: 98%;
     border: 1px solid rgb(34, 34, 34);
@@ -385,7 +414,44 @@ select#select-bar {
     cursor: pointer;
     margin: 10px 0px 35px 3px;
 }
-/* Challenge part css ends */
+
+/* Challenge part css ends here */
+/* Meet our team section css starts here */
+.team-section {
+    width: 50%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 1.85rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.image-section{
+    height: 280px;
+    width: 350px;
+}
+.image-section img {
+    height: 280px;
+    width: 350px;
+    border-radius: 10px;
+}
+.image-title{
+    width: 210px;
+    font-size: 1.25rem;
+    font-weight: 800;
+    position: relative;
+    top: -80px;
+    left: 15px;
+}
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 57px;
+}
+
+/* Meet our team section css ends here */
 
 @media screen and (max-width: 576px) {
     .nav-bar {
@@ -478,41 +544,67 @@ select#select-bar {
     .extra-run {
         width: 90%;
     }
- .btn-primary {
+
+    .btn-primary {
         width: 460px;
-    }   
+    }
+
     .extra-run-image img {
         width: 100%;
     }
 
     /* Run extra section responsive ends */
     /* Challenge parts responsive starts */
-    .container{
+    .container {
         flex-direction: column;
     }
-    .bmi-title{
+
+    .bmi-title {
         width: 90%;
     }
-    .calculated-part{
-    width: 100%;
-    }
-    .calculate-your-bmi{
+
+    .calculated-part {
         width: 100%;
     }
-    .container-calculator{
+
+    .calculate-your-bmi {
+        width: 100%;
+    }
+
+    .container-calculator {
         height: auto;
     }
+
     .weight-form {
         width: 44%;
     }
-    #button-cused{
+
+    #button-cused {
         width: 300px;
     }
-    .title-bmi-head h2{
+
+    .title-bmi-head h2 {
         font-size: 1.5rem;
     }
-    .calculated-part h2{
+
+    .calculated-part h2 {
         font-size: 1.5rem;
     }
+
     /* Challenge parts responsive ends */
+    /* Meat our team section Responsive starts here */
+    .team-section {
+        width: 100%;
+    }
+
+
+    .team-container{
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    
+
+
+
+    /* Meat our team section Responsive ends here */
 }
