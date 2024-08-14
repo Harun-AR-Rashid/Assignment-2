@@ -428,16 +428,19 @@ select#select-bar {
     font-weight: 900;
     margin-bottom: 15px;
 }
-.image-section{
+
+.image-section {
     height: 280px;
     width: 350px;
 }
+
 .image-section img {
     height: 280px;
     width: 350px;
     border-radius: 10px;
 }
-.image-title{
+
+.image-title {
     width: 210px;
     font-size: 1.25rem;
     font-weight: 800;
@@ -445,13 +448,64 @@ select#select-bar {
     top: -80px;
     left: 15px;
 }
-.team-container{
+
+.team-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px 57px;
 }
 
 /* Meet our team section css ends here */
+/* Footer section css starts here */
+.border {
+    margin-top: 90px;
+    justify-content: space-between;
+}
+
+.footer {
+    margin-top: 50px;
+    height: 500px;
+    border: 1px solid wheat;
+}
+
+.fitness-title {
+    width: 60%;
+}
+
+.fitness-title h2 {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 4.4rem;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+p.for-loop {
+    padding-right: 200px;
+    line-height: 30px;
+}
+
+.nav h4 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: left;
+}
+p.padding-loop {
+    padding: 5px 0px;
+}
+.footer-navbar{
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer section css ends here */
 
 @media screen and (max-width: 576px) {
     .nav-bar {
@@ -597,17 +651,20 @@ select#select-bar {
         width: 100%;
     }
 
-    .team-container{
+    .team-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .image-section {
         height: 300px;
         width: 80%;
         margin: 0 auto;
     }
+
     .image-section img {
         height: 300px;
         width: 100%;
     }
+
     /* Meat our team section Responsive ends here */
 }
