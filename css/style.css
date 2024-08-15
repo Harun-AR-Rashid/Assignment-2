@@ -654,7 +654,7 @@ p.footer-loop {
     }
 
     .weight-form {
-        width: 44%;
+        width: 43%;
     }
 
     #button-cused {
@@ -701,8 +701,6 @@ p.footer-loop {
     }
     .footer-navbar{
         justify-content: flex-start;
-    }
-    .display-flex{
         flex-direction: column;
     }
     p.footer-loop{
